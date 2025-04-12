@@ -1,0 +1,128 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(#0A1128,#034078,#0A1128,#034078);
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    /* background-color: #ffffff; */
+    background: #000;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  body {
+    /* background-color: #ffffff; */
+    background: #000;
+  }
+}
+
+
+@media (min-width: 768px) {  /* Medium screens and larger */
+  .main-navbar {
+      margin-left: 17%;
+  }
+}
+
+@media (max-width:768px){
+  .main-navbar {
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+}
+
+.main-navbar{
+  background-color: #072841;
+}
+
+.hero-text{
+  color:#E5C9D7;
+}
+
+.span-text{
+  color: #0C969C;
+}
+.link-text{
+  color: #0C969C;
+  text-decoration: none;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+a:hover {
+  filter: drop-shadow(10px 10px  7em #646cffaa) !important;
+}
+
+.veiw-btn{
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.view-btn:hover{
+  filter: drop-shadow(6px 6px 7em #2f38e2aa);
+}
+
+.hero-container{
+  margin-top: 14vh;
+}
+
+.nav-links{
+  cursor: pointer;
+  filter: drop-shadow(2px 2px  5em #070708aa)
+}
+.nav-links:hover{
+  color:#E5C9D7;
+}
+
+.active-link{
+  color:#E5C9D7;
+}
+
+.no-underline {
+  text-decoration: none; /* Remove underline */
+}
