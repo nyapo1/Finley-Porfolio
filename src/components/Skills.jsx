@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import '../styles/Skills.css';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaGitAlt, FaGithub } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaGitAlt, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
+import { FaCode, FaNode } from 'react-icons/fa';
+import { SiExpress } from 'react-icons/si';
 
 const Skills = () => {
   const ref = useRef(null);
@@ -90,6 +92,8 @@ const Skills = () => {
             <li><FaReact /> React.js</li>
             <li><SiTailwindcss /> Tailwind CSS</li>
             <li><FaBootstrap /> Bootstrap</li>
+            <li><FaNode /> Node.js</li>
+            <li><SiExpress /> Express.js</li>
           </motion.ul>
         </div>
 
@@ -110,6 +114,7 @@ const Skills = () => {
           >
             <li><FaGitAlt /> Git</li>
             <li><FaGithub /> GitHub</li>
+            <li> <FaCode/> API Intergration</li>
             <li>Building responsive Designs</li>
           </motion.ul>
         </div>

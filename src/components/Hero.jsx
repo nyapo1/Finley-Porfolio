@@ -56,7 +56,7 @@ const Hero = () => {
         Hello there, I am <span className='span-text'>Finley Che,</span>
       </motion.h1>
       <motion.h2 className='hero-text py-3' variants={itemVariants} transition={{ duration: 1, delay: 1 }}>
-        A passionate <span className='span-text'>Front End web developer</span> focused on building dynamic and aesthetically appealing user interfaces.
+        A passionate <span className='span-text'> Web developer</span> focused on building dynamic and aesthetically appealing user interfaces.
       </motion.h2>
       <motion.button
         className='btn btn-secondary mt-3 view-btn'
